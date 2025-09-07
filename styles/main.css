@@ -711,3 +711,12 @@ body {
     color: rgb(250 98 18);
     font-weight: 400;
 }
+.feature_col
+{
+  width: 220px;
+}
+.prod-2ndline
+{
+  display: block;
+  font-weight: 400;
+}
