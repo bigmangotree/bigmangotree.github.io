@@ -17,6 +17,7 @@
   /* Text Colors */
   --text-primary: #111827;
   --text-secondary: #6b7280;
+  --text-grey: #b1b4b9;
   --text-inverse: #ffffff;
   --text-nav: #000000;
   
@@ -31,13 +32,15 @@
   --container-width: 1200px;
   
   /* Typography */
+  --font-size-xsm: 0.5rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem;
   --font-size-2xl: 1.5rem;
   --font-size-3xl: 1.875rem;
-  --font-size-hero: 3.5rem;
+  --font-size-hero: 3.2rem;
+  --font-size-hero-sm: 2.5rem;
   
   /* Effects */
   --border-radius: 16px;
@@ -433,6 +436,13 @@ body {
   margin: calc(var(--space-xl) * -1) calc(var(--space-xl) * -1) var(--space-lg);
 }
 
+.product__div img
+{
+  width: 240px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
 /* Steps */
 .step-list {
   counter-reset: step-counter;
@@ -685,4 +695,19 @@ body {
 
 .modal-dialog ul {
   margin: 6px 0 12px 18px;
+}
+
+/* Typography  */
+.disclaimer
+{
+  font-size: var(--font-size-xsm);
+  font-style: italic;
+  color:var(--text-grey);
+  padding: 6px
+}
+.hero-title-sm
+{
+    font-size: var(--font-size-hero-sm);
+    color: rgb(250 98 18);
+    font-weight: 400;
 }
