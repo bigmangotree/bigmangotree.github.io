@@ -7,6 +7,7 @@
   --brand-secondary: #009466;
   --brand-accent: #03c69a;
   --brand-ninja: #5e7088;
+  --brand-orange:rgb(250 98 18);
   
   /* Backgrounds */
   --bg-primary: #ffffff;
@@ -708,7 +709,7 @@ body {
 .hero-title-sm
 {
     font-size: var(--font-size-hero-sm);
-    color: rgb(250 98 18);
+    color: var(--brand-orange);
     font-weight: 400;
 }
 .feature_col
@@ -719,4 +720,9 @@ body {
 {
   display: block;
   font-weight: 400;
+}
+.gumroad-bold
+{
+color: var(--brand-orange);
+font-weight: bold;
 }
