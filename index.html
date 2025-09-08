@@ -364,13 +364,23 @@ All trademarks and product names are the property of their respective owners.
         <details class="faq-item">
           <summary class="faq-question">How do I verify my download is authentic?</summary>
           <div class="faq-answer">
-            <p>
-              Each ZIP includes <code>checksums.txt</code> (SHA-256). Compare against your file:
+             Along with your ZIP file, you’ll also see a <code>SHA256SUMS.txt</code> file. This contains the official checksum.</p>
+            <p>To verify:</p>
             <ul>
-              <li><b>macOS/Linux:</b> <code>shasum -a 256 file.zip</code></li>
-              <li><b>Windows (PowerShell):</b> <code>Get-FileHash file.zip -Algorithm SHA256</code></li>
+                <li><strong>macOS/Linux:</strong><pre><code class="language-bash">shasum -a 256 yourfile.zip
+                </code></pre>
+                </li>
+                </ul>
+                <ul>
+                <li>
+                <p><strong>Windows (PowerShell):</strong></p>
+                <pre><code class="language-powershell"><span class="hljs-built_in">Get-FileHash</span> yourfile.zip <span class="hljs-literal">-Algorithm</span> SHA256
+                </code></pre>
+                </li>
             </ul>
-            </p>
+            <p>Compare the output against the value in <code>SHA256SUMS.txt</code>. If they match, your download is authentic and untampered.</p>
+
+           
           </div>
         </details>
 
@@ -450,7 +460,7 @@ All trademarks and product names are the property of their respective owners.
         <a href="https://bigmangotree.github.io/docs/faq.html" class="btn btn--outline">View all FAQs on GitHub</a>
       </div>
       <p class="text-center text-secondary">
-        Community support only • Typical reply 24–48h (business days) • Email: support@yourdomain.com
+        Community support only • Typical reply 24–48h (business days) • Email: bigmangotree@humblelab.co
       </p>
     </div>
   </section>

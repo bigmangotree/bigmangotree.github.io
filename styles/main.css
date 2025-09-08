@@ -726,3 +726,11 @@ body {
 color: var(--brand-orange);
 font-weight: bold;
 }
+.prerequisite ul, ol 
+{
+  margin-left: 30px;
+}
+.prerequisite ul, ol, p, h2 
+{
+      margin-bottom: 10px;
+}
