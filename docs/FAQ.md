@@ -1,4 +1,5 @@
 ## FAQ
+`ver 1.0.1 updated on 10th Sept 2025`
 
 **(1) What exactly do I get after purchase?**
 **\[Both]** A ZIP containing: Terraform for EC2/Lightsail, GitHub Actions workflows, sample app (Flask or static HTML), and docs (Quickstart, Troubleshooting, LICENSE, SUPPORT). Each ZIP includes a MANIFEST and checksum for integrity.
