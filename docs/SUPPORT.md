@@ -18,26 +18,33 @@ These products are sold as **community-support only**. No one-to-one setup or co
 1. **Check the included docs first:**
 
    - `docs/Quickstart.md`
-   - `docs/Troubleshooting.md`
    - `docs/FAQ.md`
 
-2. **If the issue persists, open a GitHub Issue:**
+2. **If the issue persists, open a GitHub Issue (GitHub account required):**
 
-   * Browse existing issues: [GitHub Issues Board](https://github.com/your-org/your-repo/issues)
-   * Create a new issue: [New GitHub Issue](https://github.com/your-org/your-repo/issues/new/choose)
-   * Choose the right template:
+   All support is handled through our **GitHub Issues board**.  
+   👉 You will need a **free GitHub account** to create or comment on issues.  
+   This ensures that requests are tracked, transparent, and searchable for the whole community.
 
-     * **Bug Report** → when workflows/scripts break.
-     * **Question** → for clarifications or setup help.
-   * Please include:
-     - GitHub Actions run URL or logs
-     - AWS region + Terraform version
-     - Runner OS and Product SKU
-     - Error screenshot (if available)
+   * Browse existing issues: [GitHub Issues Board](https://github.com/bigmangotree/bigmangotree.github.io/issues)
+   * Open a new issue: [New GitHub Issue](https://github.com/bigmangotree/bigmangotree.github.io/issues/new/choose)
+
+   When opening a new issue, please choose the right template:
+
+   * **Issue Report** → when workflows/scripts break.
+   * **Question** → for clarifications or setup help.
+
+   Be sure to include the following details for faster resolution:
+   - GitHub Actions run URL or logs
+   - AWS region + Terraform version
+   - Runner OS and Product SKU
+   - Error screenshot (if available)
+
+   👉 Don’t have a GitHub account? You can create one for free here: [Sign up for GitHub](https://github.com/join)
 
 3. **Email Support (fallback):**
 
-   * If you cannot use GitHub Issues, email us at **support@\[yourdomain].com**.
+   * If you cannot use GitHub Issues, email us at **bigmargotree@humblelab.co**.
 
 ## Response Time
 
@@ -47,4 +54,3 @@ Responses may be public on GitHub Issues if you raise them there.
 ## Community
 
 Join our \[Discord] (optional link) to ask quick questions, share setups, or help other users.
-
