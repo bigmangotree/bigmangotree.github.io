@@ -53,4 +53,4 @@ Responses may be public on GitHub Issues if you raise them there.
 
 ## Community
 
-Join our \[Discord] (optional link) to ask quick questions, share setups, or help other users.
+Join our \[Discord](https://discord.gg/fjB5QUDUB5) to ask quick questions, share setups, or help other users.
