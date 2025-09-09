@@ -44,7 +44,7 @@ These products are sold as **community-support only**. No one-to-one setup or co
 
 3. **Email Support (fallback):**
 
-   * If you cannot use GitHub Issues, email us at **bigmargotree@humblelab.co**.
+   * If you cannot use GitHub Issues, email us at **bigmangotree@humblelab.co**.
 
 ## Response Time
 
