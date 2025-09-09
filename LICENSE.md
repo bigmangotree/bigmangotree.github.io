@@ -1,4 +1,6 @@
 # User Agreement – BigMangoTree CI/CD Turnkey Products
+Note: This license applies only to the CI/CD Fast-Track package by BigMangoTree.
+This package is an independent work and is not affiliated with GitHub, AWS, HashiCorp, or the Flask/Python project.
 
 By purchasing and downloading this product, you agree to the following terms:
 
