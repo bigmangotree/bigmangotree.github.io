@@ -10,7 +10,7 @@
   --brand-orange:rgb(250 98 18);
   
   /* Backgrounds */
-  --bg-primary: #ffffff;
+  --bg-primary: #fff;
   --bg-secondary: #f9fafb;
   --bg-alt: #f8fafc;
   --gradient-hero: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #d1fae5 100%);
@@ -19,8 +19,8 @@
   --text-primary: #111827;
   --text-secondary: #6b7280;
   --text-grey: #b1b4b9;
-  --text-inverse: #ffffff;
-  --text-nav: #000000;
+  --text-inverse: #fff;
+  --text-nav: #000;
   
   /* Spacing */
   --space-xs: 0.5rem;
@@ -45,9 +45,9 @@
   
   /* Effects */
   --border-radius: 16px;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.1);
+  --shadow-sm: 0 1px 3px rgb(0 0 0 / 10%);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 10%);
+  --shadow-lg: 0 20px 40px rgb(0 0 0 / 10%);
   --border-color: #e5e7eb;
 }
 
@@ -109,7 +109,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgb(255 255 255 / 95%);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border-color);
   z-index: 1000;
@@ -174,11 +174,12 @@ body {
 
 .hero-badge {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgb(255 255 255 / 90%);
   color: var(--brand-primary);
   padding: var(--space-xs) var(--space-md);
   border-radius: 50px;
-  /*font-size: var(--font-size-sm);*/
+
+  /* font-size: var(--font-size-sm); */
   font-size: .9rem;
   font-weight: 600;
   margin-bottom: var(--space-lg);
@@ -245,7 +246,7 @@ body {
   right: 30px;
   width: 280px;
   height: 280px;
-  background: rgba(255, 255, 255, 1);
+  background: rgb(255 255 255 / 100%);
   border: 2px solid var(--border-color);
   border-radius: var(--border-radius);
   backdrop-filter: blur(15px);
@@ -253,6 +254,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 3;
+
   /* transform: rotate(-8deg); */
   box-shadow: var(--shadow-lg);
 }
@@ -269,6 +271,7 @@ body {
   color: var(--text-inverse);
   justify-self: center;
 }
+
 .hero-visual-2 {
   width: 300px;
   height: 300px;
@@ -418,16 +421,19 @@ body {
 {
   background: linear-gradient(30deg, #029839, #18dcd2);
 }
+
 .VP__icon
 {
     width: 154%;
     position: relative;
     top: -4px;
 }
+
 .hero2__icon
 {
   width: 100%;
 }
+
 .card__price {
   background: var(--brand-primary);
   color: var(--text-inverse);
@@ -617,7 +623,7 @@ body {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0 0 0 / 50%);
   display: none;
   align-items: center;
   justify-content: center;
@@ -665,7 +671,7 @@ body {
 .mb-xl { margin-bottom: var(--space-xl); }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   :root {
     --font-size-hero: 2.5rem;
     --space-section: 4rem;
@@ -706,39 +712,47 @@ body {
   color:var(--text-grey);
   padding: 6px
 }
+
 .hero-title-sm
 {
     font-size: var(--font-size-hero-sm);
     color: var(--brand-orange);
     font-weight: 400;
 }
+
 .feature_col
 {
   width: 220px;
 }
+
 .prod-2ndline
 {
   display: block;
   font-weight: 400;
 }
+
 .gumroad-bold
 {
 color: var(--brand-orange);
 font-weight: bold;
 }
+
 .prerequisite ul, ol 
 {
   margin-left: 30px;
 }
+
 .prerequisite ul, ol, p, h2 
 {
       margin-bottom: 10px;
 }
+
 .faq-section code.faq-version
 {
   margin-bottom: 18px;
   display: inline-block;
 }
+
 h3.footer-title
 {
   color: white;
